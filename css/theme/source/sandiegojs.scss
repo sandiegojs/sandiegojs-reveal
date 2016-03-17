@@ -1,0 +1,67 @@
+/**
+ * SanDiego.js theme for reveal.js. Based on http://sandiegojs.org
+ *
+ * This theme is Copyright (C) 2016 SanDiego.js, https://github.com/StereotypicalApps. It is MIT licensed.
+ * reveal.js is Copyright (C) 2011-2012 Hakim El Hattab, http://hakim.se
+ */
+
+
+// Default mixins and settings -----------------
+@import "../template/mixins";
+@import "../template/settings";
+// ---------------------------------------------
+
+
+
+// Include theme-specific fonts
+//@import url(https://fonts.googleapis.com/css?family=News+Cycle:400,700);
+//@import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic);
+@import "myriad-pro";
+
+
+// Override theme settings (see ../template/settings.scss)
+$mainFont: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$mainColor: #333;
+$headingFont: myriad-pro, Helvetica, sans-serif;
+$headingColor: #333;
+$headingTextShadow: none;
+$headingTextTransform: none;
+$backgroundColor: #fff;
+$linkColor: #0088cc;
+$linkColorHover: #005580;
+$selectionBackgroundColor: rgba(0, 0, 0, 0.99);
+
+
+
+// Theme template ------------------------------
+@import "../template/theme";
+// ---------------------------------------------
+
+// Extra stuff ---------------------------------
+.title,
+.interstitial {
+	body {
+		background-color: #222;
+	}
+	.reveal {
+		color: #fff;
+	}
+	.reveal h1,
+	.reveal h2,
+	.reveal h3,
+	.reveal h4,
+	.reveal h5,
+	.reveal h6 {
+		color: #fff;
+	}
+	.reveal .logo {
+		background-color: transparent;
+		border-width: 0;
+		box-shadow: none;
+		display: block;
+		height: 186px;
+		margin: 0 auto;
+		width: 764px;
+	}
+}
+// ---------------------------------------------
