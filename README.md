@@ -1,4 +1,6 @@
-# reveal.js [![Build Status](https://travis-ci.org/hakimel/reveal.js.svg?branch=master)](https://travis-ci.org/hakimel/reveal.js)
+# reveal.js with a sandiego.js theme [![Build Status](https://travis-ci.org/hakimel/reveal.js.svg?branch=master)](https://travis-ci.org/hakimel/reveal.js)
+
+This is a fork of the popular reveal.js repository with a **new theme (sandiegojs.css)** located in the theme directory with all the originals. We also have some inverse slides and our logo in the first couple of slides.
 
 A framework for easily creating beautiful presentations using HTML. [Check out the live demo](http://lab.hakim.se/reveal-js/).
 
