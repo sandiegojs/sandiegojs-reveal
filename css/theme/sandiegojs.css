@@ -313,14 +313,22 @@ body {
   -moz-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
   transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985); }
 
+.inverse body,
 .title body,
 .interstitial body {
   background-color: #222; }
 
+.inverse .reveal,
 .title .reveal,
 .interstitial .reveal {
   color: #fff; }
 
+.inverse .reveal h1,
+.inverse .reveal h2,
+.inverse .reveal h3,
+.inverse .reveal h4,
+.inverse .reveal h5,
+.inverse .reveal h6,
 .title .reveal h1,
 .title .reveal h2,
 .title .reveal h3,
@@ -335,6 +343,7 @@ body {
 .interstitial .reveal h6 {
   color: #fff; }
 
+.inverse .reveal .logo,
 .title .reveal .logo,
 .interstitial .reveal .logo {
   background-color: transparent;
